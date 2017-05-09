@@ -329,7 +329,7 @@ int main(int argc, char** argv)
 //    for (int i = 0; i < load_vector.size(); ++i)
 //        cout << load_vector[i] << endl;
 
-    //return 0;
+    return 0;
 
     //CGSolver solver;
     Eigen::ConjugateGradient<SpMat, Eigen::Lower|Eigen::Upper> solver;
