@@ -6,10 +6,10 @@ Created on Sat Apr 29 20:46:13 2017
 @author: lbluque
 """
 
-import scipy.sparse as sp
 import numpy as np
-from matplotlib.pyplot import spy
+import scipy.sparse as sp
 from itertools import takewhile
+from matplotlib.pyplot import spy
 
 filename = 'datos.txt'
 
